@@ -1,10 +1,11 @@
-audio:
-  input_path: "/home/itinerant/medical_communication_app/data/audio_medical_com_sample.wav"
-  output_path: "/home/itinerant/medical_communication_app/output/result1.json"   
-
-pyannote:
-  auth_token: "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"
-  model_name: "pyannote/speaker-diarization" 
+groq:
+  api_key: "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"
 
 llm:
-  model_name: "EleutherAI/gpt-neo-125M"
+  model_name: "llama3-groq-70b-8192-tool-use-preview"
+
+rag:
+  knowledge_base_dir: "data/knowledge_base/"
+
+huggingface:
+  access_token: "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"
