@@ -1,0 +1,11 @@
+groq:
+  api_key: "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"
+
+llm:
+  model_name: "llama3-groq-70b-8192-tool-use-preview"
+
+rag:
+  knowledge_base_dir: "data/knowledge_base/"
+
+huggingface:
+  access_token: "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"
